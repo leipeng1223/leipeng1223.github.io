@@ -79,6 +79,9 @@
     <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/demo.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
+
 <style type="text/css">
 
     .category {
@@ -90,56 +93,50 @@
     }
     
     .background {
+        height: 250px;
         background: #FFFFFF;
         border-radius: 10px;
         padding: 15px 20px;
         margin-bottom: 20px;
     }
 
-    .record {
-        color: #4e5052;
-        list-style-position: outside;
-        list-style-type: none;
-        font-size: 15px;
-        box-orient: horizontal;
-    }
-
     .box {
+        height: 100%;
         padding-top: 10px;
         margin-bottom: 0px;
-        padding-top: 10px;
         padding-bottom: 10px;
         border: 0px;
-        align: center;
         color: #4e5052;
-    }
-
-    .picbox {
         display: flex;
     }
+    
+    .swiper-container {
+        height: 200px;
+        width: 300px;
+        --swiper-navigation-color: #FFFFFF;
+        --swiper-navigation-size: 25px;
+    }  
 
-    .pic {
-        margin-top: 0px;
-        padding-top: 0px;
-        width: 20%;
-        height: auto;
-        float: left;
-        overflow: hidden;
-    }
-
-    img {
-        width: 100%;
+    .swiper_img{
         height: 100%;
+        width: 100%;
     }
 
     .desc {
+        width: 65%;
         margin-right: 25px;
         margin-bottom: 25px;
+    }
+
+    .my-bullet-active{
+        background: #ff6600d1;
+        opacity: 1;
     }
 
 </style>
 
 <body class="is-loading">
+
     <!-- Wrapper 外包 s-->
     <div id="wrapper" class="fade-in">
         <!-- Intro 头部显示 s -->
@@ -206,89 +203,114 @@
               
                     <div class="demo">
                         <div class="container">
-                            <div class="category">2020
-                            </div>
+                         
+                            <div class="category">2020</div>
                             
                             <div class="background">
                 
                                 <div class='box'>
+                                    
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/31.webp'>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/32.webp'>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/33.webp'>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+
                                     <div class='desc'>
                                             <b>Dec.18</b>
                                             陈思明老师参加由中国图像图形学学会（CSIG）主办的“CSIG图像图形中国行”活动，受邀赴北京奇安信公司，并作报告分享可视分析在泛安全领域的经验。
-                                    </div>
-                                    <div class='picbox'>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/31.webp'> 
-                                            </div>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/32.webp'> 
-                                            </div>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/33.webp'> 
-                                            </div>
-                                        
-                                    </div>
-                                </div>
+                                    </div> <!-- desc -->
+
+                                </div> <!-- box -->
                                 
-                            </div>
+                            </div> <!-- background -->
                             
                             <div class="background">
                 
                                 <div class='box'>
+                                    
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/21.jpg'>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/22.jpg'>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/23.jpg'>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/24.jpg'>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+
                                     <div class='desc'>
                                             <b>Oct.31-Nov.3</b>
                                             陈思明老师带领研究生侯艺杰、彭蕾赴中国西安参加第七届中国可视化与可视分析大会（ChinaVIS 2020），主持数据可视分析挑战赛，并在大会上发表专题报告。
-                                    </div>
-                                    <div class='picbox'>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/21.jpg'> 
-                                            </div>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/22.jpg'> 
-                                            </div>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/23.jpg'> 
-                                            </div>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/24.jpg'> 
-                                            </div>
-                                        
-                                    </div>
-                                </div>
+                                    </div> <!-- desc -->
+
+                                </div> <!-- box -->
                                 
-                            </div>
+                            </div> <!-- background -->
                             
                             <div class="background">
                 
                                 <div class='box'>
+                                    
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/11.png'>
+                                            </div>
+                                         
+                                            <div class="swiper-slide">
+                                                <img class='swiper_img' src='/news/13.png'>
+                                            </div>
+                                        
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+
                                     <div class='desc'>
                                             <b>Sep.11-Oct.25</b>
                                             实验室董佳奇、王非凡和赖新贵同学设计的作品 BlockVIS 在中国开源年会（COSCon 2020）以太坊区块链黑客松中获得“最佳可视化奖“。
-                                    </div>
-                                    <div class='picbox'>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/11.png'> 
-                                            </div>
-                                        
-                                            <div class='pic'>
-                                                <img src='/news/13.png'> 
-                                            </div>
-                                        
-                                    </div>
-                                </div>
+                                    </div> <!-- desc -->
+
+                                </div> <!-- box -->
                                 
-                            </div>
+                            </div> <!-- background -->
                             
-                        </div>
-                    </div>
+                            
+                        </div> <!-- container -->
+                    </div> <!-- demo -->
             
                     <!-- Copyright 版权 start -->
                             <div id="copyright">
@@ -300,7 +322,23 @@
 				<span id="busuanzi_container_site_pv"> 2021 </span> 
 			
         </div>
-    </div>
+    </div> <!-- wrapper -->
+
+<script> 
+        var mySwiper = new Swiper ('.swiper-container', {
+          direction: 'horizontal', 
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            bulletActiveClass: 'my-bullet-active',
+            clickable :true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        })    
+</script>
 </body>
 
 
