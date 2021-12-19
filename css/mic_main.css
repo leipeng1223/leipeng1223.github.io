@@ -1,12 +1,4 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
-@font-face {
-    font-family: FZLT;
-    /*这里是说明调用来的字体名字*/
-    src: url('source/fonts/FZLT.ttf');
-    /*这里是字体文件路径*/
-}
-
 
 /* Reset */
 
@@ -468,7 +460,6 @@ body,
 input,
 select,
 textarea {
-    font-family: "Merriweather", Georgia, serif;
     font-weight: 300;
     font-size: 1rem;
     line-height: 2.375;
@@ -2372,7 +2363,6 @@ header {
 #me .pic:before {
     content: '';
     position: absolute;
-    background: url("/img/me.jpg");
     width: 100%;
     z-index: 1;
 }
@@ -4305,136 +4295,4 @@ header {
     bottom: 2px;
     padding-left: 5%;
     color: #eeeeee;
-}
-
-
-/* post-contant */
-
-.typo a {
-    border-bottom: 0;
-    color: red;
-}
-
-@media screen and (max-width: 480px) {
-    .post-content {
-        padding: -10rem;
-    }
-}
-
-.post-content {
-    padding: 4rem 4rem 2rem 4rem;
-}
-
-.post-content hr {
-    height: 0px;
-    border: none;
-}
-
-.post-content {
-    font-family: FZLT;
-}
-
-.post-content li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: left;
-}
-
-.post-content ul {
-    margin-top: 1rem;
-    line-height: 20px;
-}
-
-.post-content ul>li {
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    line-height: 2.2rem;
-}
-
-.post-content h1 {
-    text-transform: none;
-    font-size: 3rem;
-    font-family: FZLT;
-}
-
-.post-content h2 {
-    text-transform: none;
-    font-family: FZLT;
-    font-size: 2.5rem;
-}
-
-.post-content h3 {
-    text-transform: none;
-    font-family: FZLT;
-    font-size: 2rem;
-}
-
-.post-content h4 {
-    text-transform: none;
-    font-family: FZLT;
-    font-size: 1.5rem;
-}
-
-.post-content h5 {
-    text-transform: none;
-    font-family: FZLT;
-    font-size: 1.2rem;
-}
-
-.post-content h6 {
-    text-transform: none;
-    font-family: FZLT;
-    font-size: 1rem;
-}
-
-.post-content code {
-    margin: 0;
-    padding: 0;
-}
-
-.post-content a {
-    border-bottom: none;
-    color: #00E5EE;
-}
-
-.post-content img {
-    max-width: 100%;
-}
-
-.post_page_title_img a {
-    position: absolute;
-    text-shadow: 6px 5px 10px #000;
-    padding-top: 20%;
-    border-bottom: none;
-}
-
-.post_page_title_img a>h2 {
-    font-size: 3rem;
-    color: #fff;
-}
-
-@media screen and (max-width: 820px) {
-    .post-content {
-        padding: 1rem;
-    }
-    .post_page_title_img a {
-        padding-top: 30%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .post-content {
-        padding: 1rem;
-    }
-    .post_page_title_img a {
-        padding-top: 40%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .post_page_title_img a {
-        padding-top: 50%;
-    }
 }
