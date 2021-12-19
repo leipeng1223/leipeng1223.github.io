@@ -1550,7 +1550,7 @@ header {
     line-height: 1.5em;
 }
 
-.box_recent {
+.box {
     padding-top: 15px;
     margin-bottom: 0px;
     padding-bottom: 15px;
@@ -1563,13 +1563,12 @@ header {
     width: 65%;
     margin-right: 25px;
     margin-left: 25px;
-    margin-bottom: 25px;
 }
 
 .swiper-container {
     border-radius: 8px;
-    height: 160px;
-    width: 240px;
+    height: 10rem;
+    width: 16rem;
     --swiper-navigation-color: #FFFFFF;
     --swiper-navigation-size: 25px;
 }
