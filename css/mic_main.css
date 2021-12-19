@@ -1543,7 +1543,6 @@ header {
 .background_recent {
     width: 100%;
     max-width: 72rem;
-    height: 220px;
     background: #FFFFFF;
     border-radius: 10px;
     padding: 15px 10px;
@@ -1552,13 +1551,19 @@ header {
 }
 
 .box {
-    height: 100%;
     padding-top: 15px;
     margin-bottom: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     border: 0px;
-    color: #4e5052;
     display: flex;
+}
+
+.desc_recent {
+    color: #4e5052;
+    width: 65%;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
 
 .swiper-container {
@@ -1572,12 +1577,6 @@ header {
 .swiper_img {
     height: 100%;
     width: 100%;
-}
-
-.desc_recent {
-    width: 65%;
-    margin-right: 25px;
-    margin-bottom: 25px;
 }
 
 .my-bullet-active {
@@ -2536,8 +2535,9 @@ header {
         font-weight: 500;
         color: #4e5052;
     }
-    #me header .QRCode>img {
-        height: 0.8rem
+    #QR {
+        height: 0.8rem;
+        width: 0.8rem;
     }
 }
 
