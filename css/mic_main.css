@@ -1526,15 +1526,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 500;
-    font-size: 0.9rem;
-    line-height: 1.5em;
 }
 
 .category_recent {
-    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
     text-align: center;
     font-size: 30px;
+    font-weight: 500;
     margin-top: 25px;
     margin-bottom: 25px;
     color: #FFFFFF;
@@ -1547,10 +1544,13 @@ header {
     border-radius: 10px;
     padding: 15px 10px;
     margin-bottom: 20px;
+    font-size: 0.9rem;
     font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
 }
 
-.box {
+.box_recent {
     padding-top: 15px;
     margin-bottom: 0px;
     padding-bottom: 15px;
@@ -1577,11 +1577,6 @@ header {
 .swiper_img {
     height: 100%;
     width: 100%;
-}
-
-.my-bullet-active {
-    background: #ff6600d1;
-    opacity: 1;
 }
 
 @media screen and (max-width: 736px) {
