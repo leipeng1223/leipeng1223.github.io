@@ -80,34 +80,46 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/demo.css">
 <style type="text/css">
+    .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+    
     .category {
         text-align: center;
         font-size: 30px;
+        font-weight: 500;
         margin-top: 25px;
         margin-bottom: 25px;
         color: #FFFFFF;
     }
     
     .background {
+        width: 100%;
+        max-width: 72rem;
         background: #FFFFFF;
         border-radius: 10px;
-        padding-bottom: 15px;
-        padding-top: 15px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.5em;
+        font-size: 0.9rem;
     }
     
     .record {
         color: #4e5052;
         list-style-position: outside;
         list-style-type: none;
-        font-size: 15px;
         box-orient: horizontal;
     }
     
     .box {
-        padding-top: 30px;
+        padding-top: 15px;
         padding-left: 50px;
         margin-bottom: 0px;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
         display: flex;
         border: 0px;
     }
@@ -115,7 +127,7 @@
     .pic {
         margin-top: 0px;
         padding-top: 0px;
-        width: 12rem;
+        width: 16rem;
         display: inline;
     }
     
@@ -126,9 +138,10 @@
     }
     
     .pub {
+        color: #4e5052;
         width: 70%;
-        display: inline;
         margin-left: 25px;
+        margin-right: 25px;
     }
     
     .record:hover {
