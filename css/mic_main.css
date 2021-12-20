@@ -2363,8 +2363,6 @@ header {
 #QRimg {
     display: none;
     position: absolute;
-    top: 9em;
-    left: 1em;
     background-color: rgba(245, 241, 237, 0.9);
     margin-bottom: 0px;
     padding: 1em;
@@ -2501,7 +2499,8 @@ header {
         top: 0;
         width: 48%;
         height: 100%;
-        margin-left: 3em;
+        margin-left: 2em;
+        margin-right: 1em;
         float: left;
         font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
     }
@@ -2529,9 +2528,8 @@ header {
         font-weight: 500;
         color: #4e5052;
     }
-    #QR {
+    #QRicon {
         height: 0.8rem;
-        width: 0.8rem;
     }
 }
 
@@ -2584,6 +2582,7 @@ header {
     }
     .panel header {
         padding-top: 1em;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
     }
     /* Me */
     #me .pic {
@@ -2608,7 +2607,41 @@ header {
     }
     #me header>p {
         text-align: center;
-        font-size: 1.25em;
+        font-size: 0.9rem;
+        color: #4e5052;
+        font-weight: 500;
+        letter-spacing: -0.015em;
+        line-height: 1.8;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #lab_intro_title {
+        font-size: 1.3rem;
+    }
+    .QRCode {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #4e5052;
+    }
+    #QRicon {
+        height: 0.8rem;
+    }
+    #QRimg {
+        display: none;
+        position: absolute;
+        left: 38vh;
+        background-color: rgba(245, 241, 237, 0.9);
+        margin-bottom: 0px;
+        padding: 2vh;
+        z-index: 99;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5%;
+    }
+    #QRimg>img {
+        height: 20vh;
+        width: 20vh;
+        border-radius: 5%;
     }
 }
 
