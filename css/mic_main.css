@@ -1550,7 +1550,7 @@ header {
     line-height: 1.5em;
 }
 
-.box {
+#box_recent {
     padding-top: 15px;
     margin-bottom: 0px;
     padding-bottom: 15px;
@@ -1582,6 +1582,16 @@ header {
     #main>* {
         background-color: #ffffff;
         padding: 0.5rem 1rem 0.1rem 1rem;
+    }
+    #box_recent {
+        display: block;
+        align-content: center;
+        padding: 2% 5%;
+    }
+    .desc_recent {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -2557,6 +2567,12 @@ header {
     h6 {
         font-size: 1.25em;
         letter-spacing: -0.025em;
+    }
+    #intro h1 {
+        font-size: 3rem;
+    }
+    #intro p {
+        font-size: 1.5rem;
     }
     /* Button */
     input[type="button"],
