@@ -2645,18 +2645,18 @@ header {
     #QRimg {
         display: none;
         position: absolute;
-        left: 38vh;
+        left: 35%;
+        width: 30%;
+        padding: 2%;
         background-color: rgba(245, 241, 237, 0.9);
-        margin-bottom: 0px;
-        padding: 2vh;
         z-index: 99;
         justify-content: center;
         align-items: center;
         border-radius: 5%;
     }
     #QRimg>img {
-        height: 20vh;
-        width: 20vh;
+        height: 100%;
+        width: 100%;
         border-radius: 5%;
     }
 }
