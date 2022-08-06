@@ -1,0 +1,870 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="img/logo.png"/>
+	<link rel="shortcut icon" href="img/logo.png">
+	
+			    <title>
+    FDU-VIS
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="" />
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/orange2.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00EKMQKGNE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-00EKMQKGNE');
+</script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+    
+		
+<!-- Layouts -->
+
+    <!-- Single Project Page -->
+    <!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<style type="text/css">
+    .category {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+
+    .student-type {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+    }
+
+    .row {
+        margin-top: 25px;
+    }
+
+    .our-team {
+        padding: 30px 0 40px;
+        background: #FFFFFF;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        height: 250px;
+    }
+
+    .our-team .pic {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .our-team .pic img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .our-team:hover .pic img {
+        transform: scale(1.3);
+    }
+
+    .our-team .team-content {
+        margin-bottom: 30px;
+    }
+
+    .our-team .title {
+        font-size: 22px;
+        font-weight: 700;
+        color: #4e5052;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+    }
+
+    .our-team .post {
+        display: block;
+        font-size: 15px;
+        color: #4e5052;
+        padding: 0 5px 0 5px;
+    }
+
+    .our-team .social {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: #4e5052;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        transition: all 0.5s ease 0s;
+    }
+
+    .our-team:hover .social {
+        bottom: 0;
+    }
+
+    .our-team .social li {
+        display: inline-block;
+    }
+
+    .our-team .social li a {
+        display: block;
+        padding: 10px;
+        font-size: 17px;
+        color: #fff;
+        transition: all 0.3s ease 0s;
+    }
+
+    .our-team .social li a:hover {
+        color: #110;
+        background: #f7f5ec;
+    }
+
+    .box {
+        padding-top: 10px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        display: flex;
+        border: 0px;
+    }
+
+    .picd {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 20%;
+        display: inline;
+    }
+
+    .picd img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        transform: scale(1);
+        transition: all 0.9s ease 0s;
+    }
+
+    .desc_director {
+        width: 70%;
+        display: inline;
+        margin-left: 5%;
+        color: #4e5052;
+        font-size: 1rem;
+    }
+
+    .background {
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    @media only screen and (max-width: 990px) {
+        .our-team {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media screen and (max-width: 736px) {
+        #boxd {
+            display: block;
+            padding: 2% 5%;
+        }
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">FDU-VIS</a>
+</header>
+            <!-- Nav 导航条 start -->
+            
+
+<nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/publications/" title="论文发表">
+		                论文发表
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/awards/" title="获奖">
+		                获奖
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/news/" title="新闻">
+		                新闻
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/members/" title="成员">
+		                成员
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/graduates/" title="毕业生">
+		                毕业生
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="相册">
+		                相册
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+			</ul>
+</nav>
+
+                <div class="demo">
+                    <div class="container">
+                        
+                            <div class="row">
+                                <div class="category">
+                                    2022届
+                                </div>
+
+                                <!-- <div class="row"> -->
+                                
+
+                                        
+                                            <div class="row">
+                                                <div class="student-type">
+                                                    ———— 硕士毕业生 ————
+                                                </div>
+                                                
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="/members/董佳奇.jpg">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    董佳奇
+                                                                </h3>
+
+                                                                
+                                                                    <Span class="post">毕业去向：蚂蚁集团
+                                                                    </Span>
+                                                                    
+                                                            </div>
+                                                            <ul class="social">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="/members/傅雅婷.jpeg">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    傅雅婷
+                                                                </h3>
+
+                                                                
+                                                                    <Span class="post">毕业去向：交通银行总行
+                                                                    </Span>
+                                                                    
+                                                            </div>
+                                                            <ul class="social">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="/members/侯艺杰.jpeg">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    侯艺杰
+                                                                </h3>
+
+                                                                
+                                                                    <Span class="post">毕业去向：Intel
+                                                                    </Span>
+                                                                    
+                                                            </div>
+                                                            <ul class="social">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="/members/赖新贵.jpeg">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    赖新贵
+                                                                </h3>
+
+                                                                
+                                                                    <Span class="post">毕业去向：蚂蚁集团
+                                                                    </Span>
+                                                                    
+                                                            </div>
+                                                            <ul class="social">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="/members/沈思琦.jpeg">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    沈思琦
+                                                                </h3>
+
+                                                                
+                                                                    <Span class="post">毕业去向：阿里云
+                                                                    </Span>
+                                                                    
+                                                            </div>
+                                                            <ul class="social">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="/members/王非凡.jpeg">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    王非凡
+                                                                </h3>
+
+                                                                
+                                                                    <Span class="post">毕业去向：蚂蚁集团
+                                                                    </Span>
+                                                                    
+                                                            </div>
+                                                            <ul class="social">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                        <div class="our-team">
+                                                            <div class="pic">
+                                                                <img
+                                                                    src="/members/王俊虹.jpeg">
+                                                            </div>
+                                                            <div class="team-content">
+                                                                <h3 class="title">
+                                                                    王俊虹
+                                                                </h3>
+
+                                                                
+                                                                    <Span class="post">毕业去向：Shopee
+                                                                    </Span>
+                                                                    
+                                                            </div>
+                                                            <ul class="social">
+                                                                
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    
+                                            </div>
+                                            
+
+
+                                                
+                                                    <div class="row">
+                                                        <div class="student-type">
+                                                            ———— 本科毕业生 ————
+                                                        </div>
+                                                        
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/丁雨可.jpg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            丁雨可
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：New York University, USA
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/李欣虹.jpg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            李欣虹
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：交银金融科技有限公司
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/李俨达.jpeg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            李俨达
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：复旦大学
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/罗子钦.jpeg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            罗子钦
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：复旦大学
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/王隽杰.jpeg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            王隽杰
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/王湛.jpeg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            王湛
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：香港科技大学（广州）
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/向泉州.jpg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            向泉州
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：复旦大学
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/张傲霖.jpeg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            张傲霖
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：香港大学
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/张晋瑜.jpeg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            张晋瑜
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：复旦大学
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/张雨竹.jpg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            张雨竹
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：清华大学（深圳）
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                    </div>
+                                                    
+
+
+                                                        
+                                                            <div class="row">
+                                                                <div class="student-type">
+                                                                    ———— 毕业生校友 ————
+                                                                </div>
+                                                                
+                                                                    <div class="col-md-2 col-sm-6"
+                                                                        style="margin-top: 30px">
+                                                                        <div class="our-team">
+                                                                            <div class="pic">
+                                                                                <img
+                                                                                    src="/members/方舟.jpg">
+                                                                            </div>
+                                                                            <div class="team-content">
+                                                                                <h3 class="title">
+                                                                                    方舟
+                                                                                </h3>
+
+                                                                                
+                                                                                    <Span class="post">毕业去向：哈佛大学
+                                                                                    </Span>
+                                                                                    
+                                                                            </div>
+                                                                            <ul class="social">
+                                                                                
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="col-md-2 col-sm-6"
+                                                                        style="margin-top: 30px">
+                                                                        <div class="our-team">
+                                                                            <div class="pic">
+                                                                                <img
+                                                                                    src="/members/张宇.jpg">
+                                                                            </div>
+                                                                            <div class="team-content">
+                                                                                <h3 class="title">
+                                                                                    张宇
+                                                                                </h3>
+
+                                                                                
+                                                                                    <Span class="post">毕业去向：
+                                                                                    </Span>
+                                                                                    
+                                                                            </div>
+                                                                            <ul class="social">
+                                                                                
+                                                                                    <li>
+                                                                                        <a target="_blank" rel="noopener" href="https://zhangyu94.github.io/"
+                                                                                            class="fa fa-link"></a>
+                                                                                    </li>
+                                                                                    
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                            </div>
+                                                            
+                            </div>
+                            
+                            <div class="row">
+                                <div class="category">
+                                    2021届
+                                </div>
+
+                                <!-- <div class="row"> -->
+                                
+
+                                        
+
+
+                                                
+                                                    <div class="row">
+                                                        <div class="student-type">
+                                                            ———— 本科毕业生 ————
+                                                        </div>
+                                                        
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/李翊瑄.jpg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            李翊瑄
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：University of California, Santa Barbara
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-md-2 col-sm-6" style="margin-top: 30px">
+                                                                <div class="our-team">
+                                                                    <div class="pic">
+                                                                        <img
+                                                                            src="/members/王心宇.jpg">
+                                                                    </div>
+                                                                    <div class="team-content">
+                                                                        <h3 class="title">
+                                                                            王心宇
+                                                                        </h3>
+
+                                                                        
+                                                                            <Span class="post">毕业去向：Columbia University
+                                                                            </Span>
+                                                                            
+                                                                    </div>
+                                                                    <ul class="social">
+                                                                        
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                    </div>
+                                                    
+
+
+                                                        
+                            </div>
+                            
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <div id="copyright">
+    <ul>
+        <li>&copy; FDU-VIS All rights reserved.</li>
+        <!-- <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul> -->
+        
+                <span id="busuanzi_container_site_pv">
+                    2022
+                </span>
+                
+    </ul>
+</div>
+    </div>
+</body>
+
+
+ 	
+</html>
