@@ -142,9 +142,9 @@ body {
     z-index: -1;
 }
 
-body.is-loading #wrapper.fade-in:before {
+/* body.is-loading #wrapper.fade-in:before {
     opacity: 1;
-}
+} */
 
 @media screen and (orientation: portrait) {
     body:before {
@@ -324,21 +324,21 @@ body.is-loading #wrapper.fade-in:before {
     visibility: visible;
 }
 
-body.is-loading #intro {
+/* body.is-loading #intro {
     -moz-transform: translateY(2rem);
     -webkit-transform: translateY(2rem);
     -ms-transform: translateY(2rem);
     transform: translateY(2rem);
     opacity: 0;
-}
+} */
 
-body.is-loading #intro:not(.hidden)+#header+#nav {
+/* body.is-loading #intro:not(.hidden)+#header+#nav {
     -moz-transform: translateY(4rem);
     -webkit-transform: translateY(4rem);
     -ms-transform: translateY(4rem);
     transform: translateY(4rem);
     opacity: 0;
-}
+} */
 
 @media screen and (max-width: 1620px) {
     #intro {
@@ -414,7 +414,7 @@ body {
     background-color: #1e252d;
 }
 
-body.is-loading *,
+/* body.is-loading *,
 body.is-loading *:before,
 body.is-loading *:after {
     -moz-animation: none !important;
@@ -425,7 +425,7 @@ body.is-loading *:after {
     -webkit-transition: none !important;
     -ms-transition: none !important;
     transition: none !important;
-}
+} */
 
 
 /* Type */
