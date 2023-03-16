@@ -1,0 +1,654 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="img/logo.png"/>
+	<link rel="shortcut icon" href="img/logo.png">
+	
+			    <title>
+    FDU-VIS
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="" />
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/orange2.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00EKMQKGNE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-00EKMQKGNE');
+</script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+    
+		
+<!-- Layouts -->
+
+    <!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+
+<style type="text/css">
+    .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+
+    .category {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+
+    .background {
+        width: 100%;
+        max-width: 72rem;
+        background: #ffffffeb;
+        border-radius: 10px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.5em;
+        font-size: 0.9rem;
+    }
+
+    .introduction {
+        font-size: 1.0rem;
+        color: #4e5052;
+        padding: 2% 5%;
+    }
+
+    .chinese {
+        color: #4e5052;
+    }
+
+    .english {
+        margin-top: 20px;
+        color: #4e5052;
+    }
+
+    .record {
+        color: #4e5052;
+        list-style-position: outside;
+        list-style-type: none;
+        box-orient: horizontal;
+    }
+
+    .box {
+        padding-top: 15px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+        display: flex;
+        border: 0px;
+    }
+
+    .pic {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 16rem;
+        display: inline
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #4e5052;
+    }
+
+    .pub {
+        color: #4e5052;
+        width: 70%;
+        margin-left: 25px;
+        margin-right: 15px;
+    }
+
+    .record:hover {
+        background-color: #fff3e7;
+    }
+
+    @media screen and (max-width: 736px) {
+        .box {
+            display: block;
+            padding: 2% 5%;
+        }
+
+        .pub {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">FDU-VIS</a>
+</header>
+            <!-- Nav 导航条 start -->
+            <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+
+			<li >
+	            <a href="/" rel="nofollow">首页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/publications/" title="论文发表">
+		                论文发表
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/projects/" title="研究项目">
+		                研究项目
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/awards/" title="获奖">
+		                获奖
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/news/" title="新闻">
+		                新闻
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/members/" title="成员">
+		                成员
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/graduates/" title="毕业生">
+		                毕业生
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="相册">
+		                相册
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+			</ul>
+</nav>
+
+                <div class="demo">
+                    <div class="container">
+                        <div class="category">
+                            交互式AI<br>
+                        </div>
+                        <div class="background">
+                            <div class="introduction">
+                                <div class="chinese">
+                                    <b>项目简介：</b>交互式人工智能允许用户将知识与算法等技术结合并给予用户理解的合理反馈，从而使用人工智能技术更加方便、高效。在理解高维投影这类工作当中，我们尝试提出交互式推荐算法将用户知识引入到降维结果迭代当中，从而增强高维投影可解释性。我们提出了一种基于锚动图驱动的动态文字智能可视化构建方式，用户可以实现了非文字物体向文字的动作迁移。我们也探索了基于图神经网络的可视分析系统中用户意图理解框架，可以根据用户交互历史归纳出用户探索分析过程中的意图。我们结合深度学习探索了在用户分析多视图可视化界面时的交互推荐问题。另外，我们也探索了交互式强化学习对优化奖励函数选择的作用。
+                                </div>
+                                <div class="english"><b>Project Introduction: </b> Interactive AI allows users to
+                                    combine knowledge with algorithmic and other technical techniques, and provides
+                                    users with reasonable feedback to enhance the convenience and efficiency of using AI
+                                    technology. In the task of understanding high-dimensional projection, we attempt to
+                                    propose an interactive recommendation algorithm to introduce user knowledge into the
+                                    iterative updates of dimensional reduction results, thereby enhancing the
+                                    interpretability of high-dimensional projection. We propose a dynamic text
+                                    intelligent visualization construction method based on anchor-driven graph, allowing
+                                    users to achieve action transfer from non-text objects to text. We also explore a
+                                    user intent understanding framework in the visual analysis system based on graph
+                                    neural networks, which can induce user intent during the exploration and analysis
+                                    process based on their interaction history. We combine deep learning to explore the
+                                    problem of interactive recommendation when users analyze multi-view visualization
+                                    interfaces [1]. Additionally, we also explore the role of interactive reinforcement
+                                    learning in optimizing reward function selection.</div>
+                            </div>
+                        </div>
+
+
+                        <div class="category">
+                            相关发表
+                            <br>
+                        </div>
+                        <div class="background">
+                            
+                                
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/news/391.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        Diverse Interaction Recommendation for Public Users Exploring Multi-view Visualization using Deep Learning.
+                                                    </b><br>
+                                                    <b>Yixuan Li</b>, <b>Yusheng Qi</b>, Yang Shi, Qing Chen, Nan Cao, <b>Siming Chen*</b>.<br>
+                                                        <em>IEEE Transactions on Visualization and Computer Graphics (VIS'22)</em>, Accepted, 2023.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/vis22-diverse.pdf">
+                                                                    pdf (5.8MB)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+
+                                            
+                                                
+                                
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/onelabeler.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        OneLabeler: A Flexible System for Building Data Labeling Tools.
+                                                    </b><br>
+                                                    <b>Yu Zhang</b>, <b>Yun Wang</b>, Haidong Zhang, Bin Zhu, <b>Siming Chen</b>, Dongmei Zhang.<br>
+                                                        <em>ACM CHI Conference on Human Factors in Computing Systems (ACM CHI'22)</em>, 93: 1-22, 2022.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/chi22_onelabeler.pdf">
+                                                                    pdf (8.4MB)
+                                                                </a>
+                                                                
+
+                                                                    
+                                                                        | Video |
+                                                                        <a
+                                                                            target="_blank" rel="noopener" href="http://simingchen.me/docs/chi22_onelabeler.mp4">
+                                                                            mp4 (21.2MB)
+                                                                        </a>
+                                                                        
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                                                                                | Code |
+                                                                                                                <a
+                                                                                                                    target="_blank" rel="noopener" href="https://github.com/microsoft/OneLabeler">
+                                                                                                                    OneLabeler
+                                                                                                                </a>
+                                                                                                                
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/seekingPatterns.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        Seeking patterns of visual pattern discovery for knowledge building.
+                                                    </b><br>
+                                                    Natalia Andrienko, Gennady Andrienko, <b>Siming Chen</b>, and Brian Fisher.<br>
+                                                        <em>Computer Graphics Forum</em>, 2022, Accepted.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/cgf22-seeking_patterns.pdf">
+                                                                    pdf (30.1MB)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/hybrid.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        A hybrid prediction and search approach for flexible and efficient exploration of big data.
+                                                    </b><br>
+                                                    Jie Li, Yongjian Sun, Zhenhuan Lei, <b>Siming Chen</b>, Gennady Andrienko, Natalia Andrienko, Wei Chen.<br>
+                                                        <em>Journal of Visualization</em>, 2022, Accepted.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/jov22_prediction.pdf">
+                                                                    pdf (2.8MB)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                                
+                                
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/jie.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        Exploring Multi-dimensional Data via Subset Embedding.
+                                                    </b><br>
+                                                    Peng Xie, Wenyuan Tao, Jie Li, Wentao Huang, <b>Siming Chen</b>.<br>
+                                                        <em>Computer Graphics Forum (EuroVis'21)</em>, 40(3): 75-86, 2021.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/eurovis21_jie.pdf">
+                                                                    pdf (5.7MB)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/中文.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        可视化与人工智能交叉研究综述
+                                                    </b><br>
+                                                    夏佳志, 李杰, <b>陈思明</b>, 秦红星, 刘世霞.<br>
+                                                        <em>中国科学: 信息科学</em>, 2021.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    href="/publications/VISandAI.pdf">
+                                                                    pdf (3.51MB)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                                
+                                
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                                
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <div id="copyright">
+    <ul>
+        <li>&copy; FDU-VIS All rights reserved.</li>
+        <!-- <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul> -->
+        
+                <span id="busuanzi_container_site_pv">
+                    2023
+                </span>
+                
+    </ul>
+</div>
+    </div>
+</body>
+
+
+ 	
+</html>

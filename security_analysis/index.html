@@ -1,0 +1,687 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="img/logo.png"/>
+	<link rel="shortcut icon" href="img/logo.png">
+	
+			    <title>
+    FDU-VIS
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="" />
+    
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/orange2.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00EKMQKGNE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-00EKMQKGNE');
+</script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+    
+		
+<!-- Layouts -->
+
+    <!-- <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" type="text/css" href="/css/demo.css">
+<!-- <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"> -->
+
+<style type="text/css">
+    .demo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+
+    .category {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: #FFFFFF;
+    }
+
+    .background {
+        width: 100%;
+        max-width: 72rem;
+        background: #ffffffeb;
+        border-radius: 10px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+        font-weight: 500;
+        line-height: 1.5em;
+        font-size: 0.9rem;
+    }
+
+    .introduction {
+        font-size: 1.0rem;
+        color: #4e5052;
+        padding: 2% 5%;
+    }
+
+    .chinese {
+        color: #4e5052;
+    }
+
+    .english {
+        margin-top: 20px;
+        color: #4e5052;
+    }
+
+    .record {
+        color: #4e5052;
+        list-style-position: outside;
+        list-style-type: none;
+        box-orient: horizontal;
+    }
+
+    .box {
+        padding-top: 15px;
+        padding-left: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+        display: flex;
+        border: 0px;
+    }
+
+    .pic {
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 16rem;
+        display: inline
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #4e5052;
+    }
+
+    .pub {
+        color: #4e5052;
+        width: 70%;
+        margin-left: 25px;
+        margin-right: 15px;
+    }
+
+    .record:hover {
+        background-color: #fff3e7;
+    }
+
+    @media screen and (max-width: 736px) {
+        .box {
+            display: block;
+            padding: 2% 5%;
+        }
+
+        .pub {
+            width: 100%;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+</style>
+
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">FDU-VIS</a>
+</header>
+            <!-- Nav 导航条 start -->
+            <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+
+			<li >
+	            <a href="/" rel="nofollow">首页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/publications/" title="论文发表">
+		                论文发表
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/projects/" title="研究项目">
+		                研究项目
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/awards/" title="获奖">
+		                获奖
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/news/" title="新闻">
+		                新闻
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/members/" title="成员">
+		                成员
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/graduates/" title="毕业生">
+		                毕业生
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/gallery/" title="相册">
+		                相册
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+			</ul>
+</nav>
+
+                <div class="demo">
+                    <div class="container">
+                        <div class="category">
+                            安全分析<br>
+                        </div>
+                        <div class="background">
+                            <div class="introduction">
+                                <div class="chinese">
+                                    <b>项目简介：</b>安全分析是指对网络系统、数据等进行实时监控和分析，以发现和应对各种网络威胁和攻击的过程。通过可视化技术，安全人员可以将网络数据流量和安全事件转化为直观的图表和报告，有助于更好地识别网络威胁和攻击来源，以制定更加有效的安全策略和措施。FDU-VIS专注于对网络安全状态的可视分析，帮助安全人员更好地理解和分析网络数据流量和安全事件。例如，我们使用网络分析技术定位网络资产，并使用可视化方法监控其实时状态。我们还监控以太坊网络状态并对其上的安全风险进行评估。
+                                </div>
+                                <div class="english"><b>Project Introduction: </b> Security analysis refers to the process of real-time monitoring
+                                        and analysis of network systems and data to detect and respond to various
+                                        network threats and attacks. Through visualization technology, security
+                                        personnel can transform network data traffic and security events into intuitive
+                                        charts and reports, which help identify the sources of network threats and
+                                        attacks more effectively and develop more efficient security strategies and
+                                        measures. To help security personnel comprehend and analyze network data traffic
+                                        and security events, FDU-VIS focuses on visual analysis of network security
+                                        status. For instance, we locate network assets using network analysis technology
+                                        and utilize visualization techniques to track their real-time status. We also
+                                        monitor and report the Ethereum blockchain's health and assess its security
+                                        risks.</div>
+                            </div>
+                        </div>
+
+
+                        <div class="category">
+                            相关发表
+                            <br>
+                        </div>
+                        <div class="background">
+                            
+                                
+                                    
+
+                                            
+                                    
+
+                                            
+                                                
+                                
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/sciencechina21.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        A benchmark for visual analysis of insider threat detection.
+                                                    </b><br>
+                                                    Ying Zhao, Kui Yang, <b>Siming Chen*</b>, Zhuo Zhang, Xin Huang, Qiusheng Li, Qi Ma, Xinyue Luan, Xiaoping Fan.<br>
+                                                        <em>SCIENCE CHINA Information Sciences</em>, 65(9): 199102, 2022.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/sciencechina21_benchmark.pdf">
+                                                                    pdf (1.8MB)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+                                                                                                | Benchmark |
+                                                                                                <a
+                                                                                                    target="_blank" rel="noopener" href="http://chinavis.org/2019/english/challenge_en.html">
+                                                                                                    ChinaVis Data Challenge 2019
+                                                                                                </a>
+                                                                                                
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                                
+                                
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/reliability21.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        An Indoor Crowd Movement Trajectory Benchmark Dataset.
+                                                    </b><br>
+                                                    Ying Zhao, Xin Zhao, <b>Siming Chen*</b>, Zhuo Zhang, Xin Huang.<br>
+                                                        <em>IEEE Transactions on Reliability</em>, Accepted, 2021.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/reliability21_dataset.pdf">
+                                                                    pdf (2.6MB)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+                                                                                                        | Dataset |
+                                                                                                        <a
+                                                                                                            target="_blank" rel="noopener" href="https://github.com/csuvis/IndoorTrajectoryData/">
+                                                                                                            New Public-available Benchmark Data
+                                                                                                        </a>
+                                                                                                        
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                                
+                                
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/vasabi.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        VASABI: Hierarchical User Profiles for Interactive Visual User Behaviour Analytics.
+                                                    </b><br>
+                                                    Phong H. Nguyen, Rafael Henkin, <b>Siming Chen</b>, Natalia Andrienko, Gennady Andrienko, Olivier Thonnard, Cagatay Turkay.<br>
+                                                        <em>IEEE Transactions on Visualization and Computer Graphics (VAST'19)</em>, 26(1): 77-86, 2020.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/vis19_vasabi.pdf">
+                                                                    pdf (1.5MB)
+                                                                </a>
+                                                                
+
+                                                                    
+                                                                        | Video |
+                                                                        <a
+                                                                            target="_blank" rel="noopener" href="http://simingchen.me/docs/vis19_vasabi.mp4">
+                                                                            mp4 (39.3MB)
+                                                                        </a>
+                                                                        
+
+                                                                            
+
+                                                                                    
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/lda.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        LDA Ensembles for Interactive Exploration and Categorization of Behaviors.
+                                                    </b><br>
+                                                    <b>Siming Chen</b>, Natalia Andrienko, Gennady Andrienko, Linara Adilova, Jeremie Barlet, Joerg Kindermann, Phong.H Nguyen, Olivier Thonnard, Cagatay Turkay.<br>
+                                                        <em>IEEE Transactions on Visualization and Computer Graphics (TVCG)</em>, 26(9): 2775 - 2792, 2020.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/tvcg19_lda.pdf">
+                                                                    pdf (20.1MB)
+                                                                </a>
+                                                                
+
+                                                                    
+                                                                        | Video |
+                                                                        <a
+                                                                            target="_blank" rel="noopener" href="http://simingchen.me/docs/tvcg19_lda.mp4">
+                                                                            mp4 (6.3MB)
+                                                                        </a>
+                                                                        
+
+                                                                            
+
+                                                                                    
+                                                                                        | Slides |
+                                                                                        <a
+                                                                                            target="_blank" rel="noopener" href="http://simingchen.me/docs/vis19_disiem.pptx">
+                                                                                            pptx (10MB)
+                                                                                        </a>
+                                                                                        
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/behavior.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        User Behavior Map: Visual Exploration for Cyber Security Session Data.
+                                                    </b><br>
+                                                    <b>Siming Chen</b>, Shuai Chen, Natalia Andrienko, Gennady Andrienko, Phong H. Nguyen, Cagatay Turkay, Olivier Thonnard, Xiaoru Yuan<br>
+                                                        <em>in Proceedings of 2018 IEEE Symposium on Visualization for Cyber Security (VizSec'18)</em>, Pages 1-4, Berlin, Germany, Oct.22, 2018.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/vizsec18_behaviormap.pdf">
+                                                                    pdf (5.7M)
+                                                                </a>
+                                                                
+
+                                                                    
+
+                                                                            
+
+                                                                                    
+                                                                                        | Slides |
+                                                                                        <a
+                                                                                            target="_blank" rel="noopener" href="http://simingchen.me/docs/vizsec18_behaviormap.ppt">
+                                                                                            pdf (17.2M)
+                                                                                        </a>
+                                                                                        
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+
+                                            
+                                    
+                                        <li class='record'>
+                                            <div class='box' id='box'>
+                                                <div class='pic'>
+                                                    <img src='/publications/oceans.png'>
+                                                </div>
+                                                <div class='pub'>
+                                                    <b>
+                                                        OCEANS: online collaborative explorative analysis on network security.
+                                                    </b><br>
+                                                    <b>Siming Chen</b>, Cong Guo, Xiaoru Yuan, Fabian Merkle, Hanna Schaefer and Thomas Ertl.<br>
+                                                        <em>in Proceedings of the Eleventh Workshop on Visualization for Cyber Security (VizSec'14)</em>, Pages 1-8, Paris, France, Nov.10, 2014.<br>
+
+                                                            
+                                                                | Paper |
+                                                                <a
+                                                                    target="_blank" rel="noopener" href="http://simingchen.me/docs/vizsec14-oceans-small.pdf">
+                                                                    pdf (1.8MB)
+                                                                </a>
+                                                                
+
+                                                                    
+                                                                        | Video |
+                                                                        <a
+                                                                            target="_blank" rel="noopener" href="http://simingchen.me/docs/vizsec14-oceans.wmv">
+                                                                            wmv (11.7MB)
+                                                                        </a>
+                                                                        
+
+                                                                            
+
+                                                                                    
+                                                                                        | Slides |
+                                                                                        <a
+                                                                                            target="_blank" rel="noopener" href="http://simingchen.me/docs/oceans_vizsec_1031.pptx">
+                                                                                            pptx (23.4MB)
+                                                                                        </a>
+                                                                                        
+
+                                                                                            
+
+                                                                                                    
+
+                                                                                                            
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+
+                                            
+                                                
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Copyright 版权 start -->
+                <div id="copyright">
+    <ul>
+        <li>&copy; FDU-VIS All rights reserved.</li>
+        <!-- <li>Design: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">miccall</a></li>
+            </ul> -->
+        
+                <span id="busuanzi_container_site_pv">
+                    2023
+                </span>
+                
+    </ul>
+</div>
+    </div>
+</body>
+    
+
+ 	
+</html>
